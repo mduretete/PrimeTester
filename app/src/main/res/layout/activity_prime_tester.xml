@@ -74,6 +74,21 @@
             android:layout_weight="1" />
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/kitten"
+        android:layout_weight="1.78" />
+
+    <TextView
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/kitten_caption"
+        android:id="@+id/textView"
+        android:layout_weight="0.46" />
+
     <Space
         android:layout_width="0dp"
         android:layout_height="0dp"

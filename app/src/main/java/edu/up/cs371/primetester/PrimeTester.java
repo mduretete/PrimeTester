@@ -1,5 +1,5 @@
 package edu.up.cs371.primetester;
-
+import android.util.Log;
 /**
  * Created by vegdahl on 7/17/2015.
  *
@@ -29,6 +29,7 @@ public class PrimeTester {
         }
         int sqrtN = (int) Math.sqrt(n) + 1;
         for (int a = 3; a < sqrtN; a = a + 2){
+            Log.i("isPrime", ""+a);
             if (n % a == 0) {
                 return false;
             }
